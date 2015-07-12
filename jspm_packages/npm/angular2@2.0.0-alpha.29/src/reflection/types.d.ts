@@ -1,0 +1,4 @@
+export declare type SetterFn = (obj: any, value: any) => void;
+export declare type GetterFn = (obj: any) => any;
+export declare type MethodFn = (obj: any, args: List<any>) => any;
+export declare var __esModule: boolean;

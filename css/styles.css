@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.block {
+	display: block !important;
+}
+
+.inline {
+	display: inline-block !important;
+}
+/*
+.posters div {
+	clear: both;
+	width: 700px;
+}
+
+.posters p {
+	overflow: hidden;
+}
+
+.posters img {
+	max-width: 250px;
+	float: left;
+	margin-right: 10px;
+}
+
+*/

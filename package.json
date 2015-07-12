@@ -1,0 +1,17 @@
+{
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.29",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "cavestri/themoviedb-javascript-library": "github:cavestri/themoviedb-javascript-library@master",
+      "jquery": "github:components/jquery@^2.1.4",
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}

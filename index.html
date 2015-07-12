@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="jspm_packages/github/twbs/bootstrap@3.3.5/css/bootstrap.css">
+
+    <link href="bower_components/bootstrap-material-design/dist/css/roboto.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+</head>
+<body class="container">
+	<h1>Movies list</h1>
+
+	<form class="form-inline" id="filter">
+		<div class="form-group">
+			<input autocomplete="off" class="form-control floating-label" id="filter-rating" type="text" placeholder="Rating">
+		</div>
+
+		<div class="form-group">
+			<input autocomplete="off" class="form-control floating-label" id="filter-votes_count" type="text" placeholder="Votes count">
+		</div>
+		
+		&nbsp;<button type="submit" class="btn btn-primary btn-raised">Filter</button>
+	</form>
+
+
+	<div class="posters">
+		
+	</div>
+
+	<!--<script src="jspm_packages/system.js"></script>
+	<script src="config.js"></script>
+
+
+	<script>
+		System.import('lib/main')
+	</script>-->
+
+	<script src="build.js"></script>
+</body>
+</html>
